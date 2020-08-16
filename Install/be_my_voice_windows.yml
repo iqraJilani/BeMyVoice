@@ -1,0 +1,26 @@
+name: be_my_voice_windows
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=10.0.1
+  - psutil=5.4.7
+  - ptyprocess=0.6.0
+  - py-opencv=3.4.2
+  - python=3.5.6
+  - python-dateutil=2.7.3
+  - pytorch=1.2.0
+  - scikit-learn=0.20.0
+  - sqlite=3.29.0
+  - tensorboard=1.10.0
+  - tensorflow-base=1.10.0
+  - tensorflow-gpu=1.10.
+  - tqdm=4.36.1
+  - yaml=0.1.7
+  - pip:
+    - numpy==1.17.0
+    - open3d==0.9.0.0
+    - opencv-python==4.1.2.30
+    - pandas==0.25.3
+    - pygogo==0.12 .0
